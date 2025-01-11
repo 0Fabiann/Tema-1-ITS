@@ -1,0 +1,107 @@
+
+body {background-color: #EAE6BD;}
+
+.dreptunghi {
+    width: 100px; 
+    height: 50px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    background-color: green; 
+    border-radius: 10px; 
+    padding: 5px; 
+    margin: 20px; 
+    color: rgb(0, 0, 0); 
+    
+}
+
+.mai-multe-dreptunghiuri
+{
+    display:flex;
+}
+
+.buton_submit {
+
+
+
+    background-color: green;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 50px; 
+    width:100px; 
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 0; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+
+
+/*Nu vrea de nicio culoare sa se puna pe centru butonu ala :( */
+
+
+.image-container {
+    display: flex;
+    
+    align-items: center;
+    flex-direction:column-reverse;
+    gap: 50px; 
+    
+}
+
+.image-container img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+hr {
+    display: block;      
+    width: 700%;          
+    height: 1px;         
+    border: none;         
+    background-color: black; 
+    margin: 20px 0;      
+}
+
+
+
+
+
+
+
+
+.frog-icons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px 1px;
+    justify-items: center; 
+    margin: 2   0px;
+}
+
+.frog-icons div {
+    display: flex;
+    flex-direction: column; 
+    
+    align-items: center; 
+    text-align: center; 
+}
+
+.frog-icons img {
+    width: 80px; 
+    height: auto;
+}
+
+.frog-icons input {
+    margin-top: 10px; 
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; 
+    gap: 10px;
+    max-width: 150px; 
+}
